@@ -10,7 +10,7 @@ micronaut:
 
 datasources:
   default:
-    url: jdbc:postgresql://db:5432/tourspel
+    url: jdbc:postgresql://127.0.0.1:5432/tourspel
     username: postgres
     password: tes
     driverClassName: org.postgresql.Driver
