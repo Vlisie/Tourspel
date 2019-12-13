@@ -12,6 +12,6 @@ import java.util.*
 data class RennerDTO (
         var id: Int,
         var name: String,
-        @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy/MM/dd", timezone = "CEST") var birthdate: Date
+        @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy/MM/dd", timezone = "CET") var birthdate: Date
 )
 
