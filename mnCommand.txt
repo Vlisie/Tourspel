@@ -1,0 +1,1 @@
+mn create-app com-tourspel-tourapp --profile service --lang kotlin --build gradle --features data-hibernate-jpa --features swagger-kotlin --features jdbc-tomcat --features flyway --features spek --features graphql
