@@ -10,7 +10,7 @@ micronaut:
 
 datasources:
   default:
-    url: jdbc:postgresql://localhost:32769/tour
+    url: jdbc:postgresql://localhost:5432/tour
     username: postgres
     password: test
     driverClassName: org.postgresql.Driver
