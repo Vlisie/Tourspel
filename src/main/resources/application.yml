@@ -10,9 +10,9 @@ micronaut:
 
 datasources:
   default:
-    url: jdbc:postgresql://127.0.0.1:5432/tourspel
+    url: jdbc:postgresql://localhost:32769/tour
     username: postgres
-    password: tes
+    password: test
     driverClassName: org.postgresql.Driver
 jpa:
   default:
@@ -21,10 +21,10 @@ jpa:
         bytecode:
           provider: none
         show_sql: true
-flyway:
-  datasources:
-    default:
-      locations: classpath:dbmigrations
+#flyway:
+ # datasources:
+  #  default:
+   #   locations: classpath:dbmigrations
 ---
 
 datasources.default: {}
