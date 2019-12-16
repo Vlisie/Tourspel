@@ -5,15 +5,15 @@ micronaut:
     port: 2019
 
 
-
 ---
 
 datasources:
   default:
-    url: jdbc:postgresql://localhost:32768/tour
-    username: postgres
-    password: test
+    url: jdbc:postgresql://ec2-174-129-254-223.compute-1.amazonaws.com:5432/d1f4aadqcknre8
+    username: uuefbvthsfpaav
+    password: b38a168974c145fe6fbd85856c1e7cee491f45bbaea2aace382d2d3b9cd4cbd8
     driverClassName: org.postgresql.Driver
+    sslmode: require
 jpa:
   default:
     properties:
